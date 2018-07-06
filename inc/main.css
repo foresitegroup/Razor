@@ -1,0 +1,265 @@
+/*
+#222222 - black
+#FBAA32 - yellow
+#E33625 - red
+
+font-family: 'Cutive Mono', monospace;
+*/
+
+@font-face {
+  font-family: 'din';
+  src: url('fonts/din_condensed_bold.woff2') format('woff2'),
+       url('fonts/din_condensed_bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'zviro';
+  src: url('fonts/zviro_demo1.woff2') format('woff2'),
+       url('fonts/zviro_demo1.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+BODY {
+  margin: 0;
+  padding: 0;
+  background: #222222;
+  color: #FFFFFF;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 12px;
+  line-height: 1.2em;
+}
+
+IMG {
+  border: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+A {
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.site-width {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.site-width:after,
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+HEADER {
+  height: 104px;
+}
+
+HEADER .logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 1500;
+}
+
+#hero {
+  background: url(../images/hero.jpg) no-repeat center;
+  background-size: cover;
+}
+
+#hero:before {
+  content: "";
+  display: block;
+  padding-top: 45.375%;
+}
+
+.ribbon {
+  padding: 0.65em 0 0.3em;
+  background: #FBAA32;
+  font-family: din;
+  font-size: 36px;
+  line-height: 1em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.ribbon.bigger { padding: 0.42em 0 0.12em; font-size: 48px; }
+
+#trim, #mouldings {
+  background: url(../images/dots.png) no-repeat center top;
+  background-color: #E33625;
+  background-size: cover;
+  position: relative;
+}
+
+#mouldings { background-color: transparent; }
+
+#trim-image {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-110%);
+  -ms-transform: translateX(-110%);
+  transform: translateX(-110%);
+}
+
+#trim .text{
+  width: 44.66%;
+  margin-left: 55.34%;
+  padding: 180px 0;
+}
+
+#mouldings .text {
+  padding: 180px 0;
+}
+
+H2.razor {
+  margin: 0;
+  color: #FBAA32;
+  font-family: zviro;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  position: relative;
+}
+
+H2.razor:before {
+  content: "";
+  display: inline-block;
+  background: url(../images/star.svg) no-repeat center;
+  background-size: contain;
+  height: 32px;
+  width: 20px;
+  margin: 0 0.15em;
+}
+
+H1.title {
+  margin: 0 0 0;
+  font-family: din;
+  font-weight: 400;
+  font-size: 144.2px;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+#trim .text > DIV {
+  padding-left: 7%;
+}
+
+#mouldings .text > DIV {
+  margin-left: 3%;
+  width: 44.66%;
+}
+
+UL {
+  margin: 2em 10% 2em 15%;
+  list-style-type: none;
+}
+
+#mouldings UL { margin: 2em 18% 2em 7%; }
+
+UL LI {
+  padding: 0.6em 0;
+  font-size: 83.33%;
+  line-height: 1.2em;
+}
+
+UL LI:before {
+  content: "";
+  display: inline-block;
+  background: url(../images/star.svg) no-repeat center;
+  background-size: contain;
+  height: 0.7em;
+  width: 0.7em;
+  margin-left: -1.4em;
+  margin-right: 0.7em;
+}
+
+A.button:link, A.button:visited {
+  margin-left: 22%;
+  display: inline-block;
+  border: 3px solid #FBAA32;
+  border-radius: 9px;
+  padding: 0.65em 0.65em 0.3em 0.7em;
+  color: #FFFFFF;
+  font-family: din;
+  font-size: 16px;
+  line-height: 1em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+#mouldings A.button:link, #mouldings A.button:visited { margin-left: 13%; }
+
+A.button:hover, A.button:active { background: #FBAA32; }
+
+#edge .site-width {
+  box-sizing: border-box;
+  padding: 3em 5%;
+  text-align: center;
+}
+
+#email {
+  background-color: #E33625;
+  padding: 2em 0 140px;
+  text-align: center;
+}
+
+FOOTER {
+  padding: 125px 0 3em;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.2em;
+  text-align: center;
+  position: relative;
+}
+
+FOOTER .logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: 1500;
+}
+
+
+
+
+@media only screen and (min-width: 1600px) {
+  #hero {
+    max-width: auto;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1030px) {
+  .site-width { width: 96%; }
+}
+
+@media only screen and (max-width: 800px) {
+  /* Small computer or landscape tablet */
+}
+
+@media only screen and (max-width: 768px) {
+  /* Tablet */
+}
+
+@media only screen and (max-width: 600px) {
+  /* Small tablet */
+}
+
+@media only screen and (max-width: 480px) {
+  /* Phone */
+}
