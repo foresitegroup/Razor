@@ -9,14 +9,14 @@
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
-    <meta name="description" content="">
+    <meta name="description" content="The most cost-effective PVC trim and mouldings in the marketplace.">
     <meta name="keywords" content="">
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
     <link rel="stylesheet" href="inc/main.css?<?php echo filemtime('inc/main.css'); ?>">
 
     <script type="text/javascript" src="inc/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="inc/jquery.cycle2.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
         $("a[href^='http']").not("[href*='" + window.location.host + "']").prop('target','new');
@@ -54,11 +54,12 @@
             </ul>
             <br>
 
-            <a href="#" class="button">Download Brochure</a>
+            <a href="pdf/Razor_PVC_Trim.pdf" class="button">Download Brochure</a>
           </div>
         </div> <!-- /.text -->
       </div> <!-- /.site-width -->
-
+      
+      <img src="images/trim-table.svg" alt="" id="trim-table">
       <img src="images/trim.png" alt="" id="trim-image">
     </div> <!-- /#trim -->
 
@@ -81,9 +82,81 @@
             </ul>
             <br>
 
-            <a href="#" class="button">Download Brochure</a>
+            <a href="pdf/Razor_Mouldings.pdf" class="button">Download Brochure</a>
           </div>
         </div> <!-- /.text -->
+
+        <div id="slides">
+          <div class="cycle-slideshow" data-cycle-slides="> div" data-cycle-timeout="0" data-cycle-fx="scrollHorz" data-cycle-caption="#custom-caption" data-cycle-caption-template="{{slideNum}}<span>/{{slideCount}}</span><div>Click through to see our <span>30+ available profiles</span>">
+            <div>
+              <img src="images/mouldings/bed-moulding.png" alt="Bed Moulding">
+              <img src="images/mouldings/rams-crown.png" alt="Ram's Crown">
+              <img src="images/mouldings/imperial-rake.png" alt="Imperial Rake">
+            </div>
+
+            <div>
+              <img src="images/mouldings/rake-mould.png" alt="Rake Mould">
+              <img src="images/mouldings/shingle-mould.png" alt="Shingle Mould">
+              <img src="images/mouldings/base-cap.png" alt="Base Cap">
+            </div>
+
+            <div>
+              <img src="images/mouldings/crown-mould-1.png" alt="Crown Mould 1">
+              <img src="images/mouldings/crown-mould-2.png" alt="Crown Mould 2">
+              <img src="images/mouldings/crown-mould-3.png" alt="Crown Mould 3">
+            </div>
+
+            <div>
+              <img src="images/mouldings/quarter-round.png" alt="Quarter Round">
+              <img src="images/mouldings/scotia-cove.png" alt="Scotia Cove">
+              <img src="images/mouldings/drip-cap.png" alt="Drip Cap">
+            </div>
+
+            <div>
+              <img src="images/mouldings/adams-casing.png" alt="Adam's Casing">
+              <img src="images/mouldings/backband-casing.png" alt="Backband Casing">
+              <img src="images/mouldings/backband.png" alt="Backband">
+            </div>
+
+            <div>
+              <img src="images/mouldings/brickmould.png" alt="Brickmould">
+              <img src="images/mouldings/brickmould-j.png" alt="Brickmould + J">
+              <img src="images/mouldings/beadboard.png" alt="Beadboard">
+            </div>
+
+            <div>
+              <img src="images/mouldings/weatherstop.png" alt="Weatherstop">
+              <img src="images/mouldings/water-table.png" alt="Water Table">
+              <img src="images/mouldings/louver.png" alt="Louver">
+            </div>
+
+            <div>
+              <img src="images/mouldings/sill.png" alt="Sill">
+              <img src="images/mouldings/attic-sill.png" alt="Attic Sill">
+              <img src="images/mouldings/historic-sill.png" alt="Historic Sill">
+            </div>
+
+            <div>
+              <img src="images/mouldings/sill-nose.png" alt="Sill Nose">
+              <img src="images/mouldings/transom-sill-nose.png" alt="Transom Sill Nose">
+              <img src="images/mouldings/historic-sill-nose.png" alt="Historic Sill Nose">
+            </div>
+
+            <div class="two-images">
+              <img src="images/mouldings/top-rail.png" alt="Top Rail">
+              <img src="images/mouldings/bottom-rail.png" alt="Bottom Rail">
+            </div>
+
+            <div class="two-images">
+              <img src="images/mouldings/1-14-square.png" alt='1-1/4" Square'>
+              <img src="images/mouldings/1-12-square.png" alt='1-1/2" Square'>
+            </div>
+
+            <p class="cycle-prev"><img src="images/arrow-left.png" alt="<"></p>
+            <p class="cycle-next"><img src="images/arrow-right.png" alt=">"></p>
+            <p id="custom-caption"></p>
+          </div>
+        </div>
       </div> <!-- /.site-width -->
     </div> <!-- /#mouldings -->
 
@@ -93,14 +166,95 @@
 
     <div id="edge">
       <div class="site-width">
-        ICONS HERE<br>
+        <img src="images/icon-easy-to-install.svg" alt="Easy to install with basic tools">
+        <img src="images/icon-clean.svg" alt="Just soap and water to clean">
+        <img src="images/icon-water-resistant.svg" alt="Water resistant">
+        <img src="images/icon-bug-resistant.svg" alt="Bug and insect resistant">
+        <img src="images/icon-rot-resistant.svg" alt="Rot and mold resistant">
+        <br>
+
         It is virtually maintenance free and it complements all exterior cladding materials, including vinyl, wood, stucco, fiber cement, and brick. Installers prefer it because cellular PVC trim is lightweight and durable and it can be installed using ordinary woodworking tools.
       </div>
     </div>
 
-    <div id="email">
+    <div id="contact">
       <div class="site-width">
-        EMAIL HERE
+        Want to know more? Get in touch with a
+        <h3>Razor Specialist</h3>
+
+        <script type="text/javascript">
+          $(document).ready(function() {
+            var form = $('#contact-form');
+            var formMessages = $('#contact-form-messages');
+            $(form).submit(function(event) {
+              event.preventDefault();
+
+              function formValidation() {
+                if ($('#name').val() === '') { alert('Name required.'); $('#name').focus(); return false; }
+                if ($('#email').val() === '') { alert('Email Address required.'); $('#email').focus(); return false; }
+                if ($('#message').val() === '') { alert('Message required.'); $('#message').focus(); return false; }
+                return true;
+              }
+
+              if (formValidation()) {
+                var formData = $(form).serialize();
+                formData += '&src=ajax';
+
+                $.ajax({
+                  type: 'POST',
+                  url: $(form).attr('action'),
+                  data: formData
+                })
+                .done(function(response) {
+                  $(formMessages).html(response);
+
+                  $(form).find('input:text, textarea').val('');
+                  $('#email').val('');
+                })
+                .fail(function(data) {
+                  if (data.responseText !== '') {
+                    $(formMessages).html(data.responseText);
+                  } else {
+                    $(formMessages).text('Oops! An error occured and your message could not be sent.');
+                  }
+                });
+              }
+            });
+          });
+        </script>
+
+        <?php
+        // Settings for randomizing form field names
+        $ip = $_SERVER['REMOTE_ADDR'];
+        $timestamp = time();
+        $salt = "RazorContactForm";
+        ?>
+
+        <noscript>
+        <?php
+        $feedback = (!empty($_SESSION['feedback'])) ? $_SESSION['feedback'] : "";
+        unset($_SESSION['feedback']);
+        ?>
+        </noscript>
+
+        <form action="form-contact.php" method="POST" id="contact-form">
+          <div>
+            <input type="text" name="<?php echo md5("name" . $ip . $salt . $timestamp); ?>" id="name" placeholder="Name">
+
+            <input type="email" name="<?php echo md5("email" . $ip . $salt . $timestamp); ?>" id="email" placeholder="Email Address">
+
+            <textarea name="<?php echo md5("message" . $ip . $salt . $timestamp); ?>" id="message" placeholder="Message"></textarea>
+
+            <input type="hidden" name="referrer" value="index.php">
+            <input type="text" name="confirmationCAP" style="display: none;">
+            <input type="hidden" name="ip" value="<?php echo $ip; ?>">
+            <input type="hidden" name="timestamp" value="<?php echo $timestamp; ?>">
+
+            <input type="submit" name="submit" value="Submit">
+          </div>
+        </form>
+
+        <div id="contact-form-messages"><?php echo $feedback; ?></div>
       </div>
     </div>
 
