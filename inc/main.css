@@ -55,9 +55,7 @@ A {
   clear: both;
 }
 
-HEADER {
-  height: 104px;
-}
+HEADER { height: 72px; }
 
 HEADER .logo {
   position: absolute;
@@ -67,6 +65,8 @@ HEADER .logo {
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   z-index: 1500;
+  height: 144px;
+  width: auto;
 }
 
 #hero {

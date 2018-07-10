@@ -87,7 +87,7 @@
         </div> <!-- /.text -->
 
         <div id="slides">
-          <div class="cycle-slideshow" data-cycle-slides="> div" data-cycle-timeout="0" data-cycle-fx="scrollHorz" data-cycle-caption="#custom-caption" data-cycle-caption-template="{{slideNum}}<span>/{{slideCount}}</span><div>Click through to see our <span>30+ available profiles</span>">
+          <div class="cycle-slideshow" data-cycle-slides="> div" data-cycle-timeout="0" data-cycle-caption="#custom-caption" data-cycle-caption-template="{{slideNum}}<span>/{{slideCount}}</span><div>Click through to see our <span>30+ available profiles</span>">
             <div>
               <img src="images/mouldings/bed-moulding.png" alt="Bed Moulding">
               <img src="images/mouldings/rams-crown.png" alt="Ram's Crown">
@@ -232,8 +232,12 @@
 
         <noscript>
         <?php
-        $feedback = (!empty($_SESSION['feedback'])) ? $_SESSION['feedback'] : "";
-        unset($_SESSION['feedback']);
+        if (!empty($_SESSION['feedback'])) {
+          $feedback = $_SESSION['feedback'];
+          unset($_SESSION['feedback']);
+        } else {
+          $feedback = "";
+        }
         ?>
         </noscript>
 
