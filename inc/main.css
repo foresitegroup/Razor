@@ -329,6 +329,19 @@ LABEL[for="dist-toggle"] { display: block; cursor: pointer; }
 #dist-toggle + LABEL + #distribution { display: none; }
 #dist-toggle:checked + LABEL + #distribution { display: flex; }
 
+#dist-toggle + LABEL[for="dist-toggle"]:after {
+  content: "\2192";
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 50%;
+  margin-left: 0.5em;
+  width: 1em;
+}
+
+#dist-toggle:checked + LABEL[for="dist-toggle"]:after {
+  content: "\2193";
+}
+
 #distribution .site-width {
   display: flex;
   justify-content: center;
