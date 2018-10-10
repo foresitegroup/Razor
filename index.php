@@ -177,6 +177,19 @@
       </div>
     </div>
 
+    <input type="checkbox" id="dist-toggle" role="button">
+    <label for="dist-toggle" class="ribbon bigger">Distribution</label>
+    <div id="distribution">
+      <div class="site-width">
+        <img src="images/distribution-map.png" alt="" id="dist-map">
+
+        <div id="dist-text">
+          Distributed by
+          <a href="http://princetonforestproducts.com"><img src="images/princeton-forest-products.png" alt="Princeton Forest Products"></a>
+        </div>
+      </div>
+    </div>
+
     <div id="contact">
       <div class="site-width">
         Want to know more? Get in touch with a

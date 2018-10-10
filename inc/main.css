@@ -323,6 +323,36 @@ A.button:hover, A.button:active { background: #FBAA32; }
   margin: 20px;
 }
 
+#dist-toggle { display: none; }
+LABEL[for="dist-toggle"] { display: block; cursor: pointer; }
+
+#dist-toggle + LABEL + #distribution { display: none; }
+#dist-toggle:checked + LABEL + #distribution { display: flex; }
+
+#distribution .site-width {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+#dist-map {
+  width: auto;
+  height: 311px;
+}
+
+#dist-text {
+  width: 42.9%;
+  color: #FBAA32;
+  font-family: din;
+  font-size: 24px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#dist-text IMG { margin-top: 0.5em; }
+
 #contact {
   padding: 2em 0 110px;
   background-color: #E33625;
@@ -557,6 +587,10 @@ FOOTER A { color: #FFFFFF; }
   #slides:before { top: 5%; }
 
   #edge IMG { margin: 20px; }
+
+  #distribution .site-width { flex-direction: column-reverse; }
+  #dist-map { height: auto; }
+  #dist-text { width: 100%; margin-bottom: 2em; )
 
   INPUT[type="text"], INPUT[type="email"], TEXTAREA { width: 100%; }
   INPUT#email { margin-left: 0; }
