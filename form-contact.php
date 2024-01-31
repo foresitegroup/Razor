@@ -3,13 +3,13 @@ session_start();
 
 $salt = "RazorContactForm";
 
-if ($_POST['confirmationCAP'] == "") {
-  if (
-      $_POST[md5('name' . $_POST['ip'] . $salt . $_POST['timestamp'])] != "" &&
-      $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] != "" &&
-      $_POST[md5('message' . $_POST['ip'] . $salt . $_POST['timestamp'])] != ""
-     )
-  {
+if (
+    $_POST[md5('name' . $_POST['ip'] . $salt . $_POST['timestamp'])] != "" &&
+    $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] != "" &&
+    $_POST[md5('message' . $_POST['ip'] . $salt . $_POST['timestamp'])] != ""
+   )
+{
+  if ($_POST['username'] == "") {
     // Send email
     $Subject = "Contact From Razor Website";
     $SendTo = "frank.butterfield@kommerlingusa.com";
@@ -22,6 +22,11 @@ if ($_POST['confirmationCAP'] == "") {
 
     $Message .= "\n";
 
+    if (isset($_POST['interested'])) {
+      $interested = implode(", ", $_POST['interested']);
+      $Message .= "I am interested in: " . $interested . "\n\n";
+    }
+
     $Message .= "Message:\n" . $_POST[md5('message' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "\n";
 
     $Message = stripslashes($Message);
@@ -29,23 +34,10 @@ if ($_POST['confirmationCAP'] == "") {
     mail($SendTo, $Subject, $Message, $Headers);
     
     $feedback = "Thank you for your interest in Razor Trim Products. You will be contacted soon.";
-    
-    if (!empty($_REQUEST['src'])) {
-      header("HTTP/1.0 200 OK");
-      echo $feedback;
-    }
-  } else {
-    $feedback = "Some required information is missing! Please go back and make sure all required fields are filled.";
-
-    if (!empty($_REQUEST['src'])) {
-      header("HTTP/1.0 500 Internal Server Error");
-      echo $feedback;
-    }
-  }
+  } // Honeypot
+} else {
+  $feedback = "Some required information is missing! Please go back and make sure all required fields are filled.";
 }
 
-if (empty($_REQUEST['src'])) {
-  $_SESSION['feedback'] = $feedback;
-  header("Location: " . $_POST['referrer'] . "#contact");
-}
+echo $feedback;
 ?>

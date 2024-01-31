@@ -2,27 +2,15 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Razor Products<?php if (isset($PageTitle)) echo " | " . $PageTitle; ?></title>
+    <title>Razor PVC Trim & Sheets<?php if (isset($PageTitle)) echo " | " . $PageTitle; ?></title>
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
-    <meta name="description" content="The most cost-effective PVC trim and mouldings in the marketplace.">
-    <meta name="keywords" content="">
+    <meta name="description" content="The most cost-effective PVC trim and sheets in the marketplace.">
 
-    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
     <link rel="stylesheet" href="inc/main.css?<?php echo filemtime('inc/main.css'); ?>">
-
-    <script type="text/javascript" src="inc/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="inc/jquery.cycle2.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $("a[href^='http']").not("[href*='" + window.location.host + "']").prop('target','new');
-        $("a[href$='.pdf']").prop('target', 'new');
-      });
-    </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-4H9PNX77ZW"></script>
@@ -36,13 +24,13 @@
   <body>
 
     <header>
-      <img src="images/logo.png" alt="Razor Products" class="logo">
+      <img src="images/logo.webp" alt="Razor PVC Trim & Sheets" width="1000" height="650" class="logo">
     </header>
 
-    <div id="hero" role="img" aria-label="Give yourself an edge with Razor PVC moulding & trim"></div>
+    <div id="hero" role="img" aria-label="Give yourself an edge with Razor PVC trim & sheets"></div>
 
     <div class="ribbon">
-      The most cost-effective PVC trim &amp; mouldings in the marketplace
+      The most cost-effective PVC trim &amp; sheets in the marketplace
     </div>
 
     <div id="trim">
@@ -51,43 +39,52 @@
           <h2 class="razor">Razor</h2>
           <h1 class="title">PVC Trim</h1>
 
-          <div>
-            Your attention to quality and detail has never been more important. Razor Trim is the most cost effective PVC trim available. Contractors, architects and homeowners all see the benefits of PVC over wood and wood composites.<br>
-            <br>
+          MAINTENANCE FREE REFINED LOOK<br>
+          <br>
 
-            <ul>
-              <li>Available in standard 16' lengths</li>
-              <li>Our trim is cut to keep the edges clean and dimensionally accurate with true 90&deg; angles.</li>
-              <li>We offer two finishes, Smooth Matte and Wood Grain. Our trim boards can be ordered either Smooth/Smooth or Smooth/Wood Grain.</li>
-              <li>Wood Grain is designed with a more natural surface texture to compliment cedar or fiber cement siding.</li>
-            </ul>
-            <br>
+          Your attention to quality and detail has never been more important. Razor Trim is the most cost-effective PVC trim available. Contractors, architects, and homeowners all see the benefits of PVC over wood and wood composites.<br>
+          <br>
 
-            <a href="pdf/Razor_PVC_Trim.pdf" class="button">Download Brochure</a>
-          </div>
+          RAZOR PVC FREE FOAM TRIM:
+          <ul>
+            <li>Available in 12' to 20' lengths in either ¾" or 5/4" thicknesses.</li>
+            <li>Our trim is cut to keep the edges clean and dimensionally accurate with true 90° angles.</li>
+            <li>Sealed edges provide a  long-lasting and clean edge.</li>
+            <li>Our trim boards can be ordered either Smooth/Smooth or Smooth/Wood Grain.</li>
+            <li>Wood Grain is designed with a more natural surface texture to complement cedar or fiber cement siding.</li>
+          </ul>
+          <br>
+
+          <a href="pdf/Razor_PVC_Trim.pdf" class="button">Download Brochure</a>
         </div> <!-- /.text -->
+
+        <img src="images/trim-table.webp" alt="" width="1000" height="627" id="trim-table">
       </div> <!-- /.site-width -->
-      
-      <img src="images/trim-table.svg" alt="" id="trim-table">
-      <img src="images/trim.png" alt="" id="trim-image">
+
+      <img src="images/trim.webp" alt="" width="529" height="697" id="trim-image">
     </div> <!-- /#trim -->
 
-    <div id="mouldings">
+    <div id="sheet">
       <div class="site-width">
         <div class="text">
           <h2 class="razor">Razor</h2>
-          <h1 class="title">Mouldings</h1>
+          <h1 class="title">PVC Free Foam Sheet</h1>
 
           <div>
-            Take your home exterior to the next level. Razor Moulding highlights the architectural features of your home and makes for head turning curb appeal &mdash; without rotting, peeling or fading. Competitively priced for best value.<br>
+            PERFECT FOR LARGER EXTERIOR SURFACE AREAS<br>
             <br>
 
+            Razor sheet is the most cost-effective PVC sheet available. OEMs, architects, and contractors all see the benefits of manufacturing with PVC sheets over wood and wood composites.<br>
+            <br>
+
+            RAZOR PVC FREE FOAM SHEETS
             <ul>
-              <li>Matte Finish allows for one coat paint application</li>
-              <li>Extruded (not machined) using the finest exterior grade cellular PVC material</li>
-              <li>Millwork, Railing, Window &amp; Door Profiles </li>
-              <li>Fastens and installs like wood</li>
-              <li>Ready to install, saving on time & labor</li>
+              <li>Available in ¾" to 1" thicknesses for your panel and construction needs.</li>
+              <li>4' wide and up to 18' in length.</li>
+              <li>Head-turning curb appeal - without rotting, peeling, or fading.</li>
+              <li>Razor sheet is perfect for larger exterior surface areas that need the durability of PVC.</li>
+              <li>Razor is the trusted free foam supplier for OEM fabricators.</li>
+              <li>Nationwide for its excellent milling capabilities.</li>
             </ul>
             <br>
 
@@ -95,79 +92,45 @@
           </div>
         </div> <!-- /.text -->
 
-        <div id="slides">
-          <div class="cycle-slideshow" data-cycle-slides="> div" data-cycle-timeout="0" data-cycle-caption="#custom-caption" data-cycle-caption-template="{{slideNum}}<span>/{{slideCount}}</span><div>Click through to see our <span>30+ available profiles</span>">
-            <div>
-              <img src="images/mouldings/bed-moulding.png" alt="Bed Moulding">
-              <img src="images/mouldings/rams-crown.png" alt="Ram's Crown">
-              <img src="images/mouldings/imperial-rake.png" alt="Imperial Rake">
-            </div>
-
-            <div>
-              <img src="images/mouldings/rake-mould.png" alt="Rake Mould">
-              <img src="images/mouldings/shingle-mould.png" alt="Shingle Mould">
-              <img src="images/mouldings/base-cap.png" alt="Base Cap">
-            </div>
-
-            <div>
-              <img src="images/mouldings/crown-mould-1.png" alt="Crown Mould 1">
-              <img src="images/mouldings/crown-mould-2.png" alt="Crown Mould 2">
-              <img src="images/mouldings/crown-mould-3.png" alt="Crown Mould 3">
-            </div>
-
-            <div>
-              <img src="images/mouldings/quarter-round.png" alt="Quarter Round">
-              <img src="images/mouldings/scotia-cove.png" alt="Scotia Cove">
-              <img src="images/mouldings/drip-cap.png" alt="Drip Cap">
-            </div>
-
-            <div>
-              <img src="images/mouldings/adams-casing.png" alt="Adam's Casing">
-              <img src="images/mouldings/backband-casing.png" alt="Backband Casing">
-              <img src="images/mouldings/backband.png" alt="Backband">
-            </div>
-
-            <div>
-              <img src="images/mouldings/brickmould.png" alt="Brickmould">
-              <img src="images/mouldings/brickmould-j.png" alt="Brickmould + J">
-              <img src="images/mouldings/beadboard.png" alt="Beadboard">
-            </div>
-
-            <div>
-              <img src="images/mouldings/weatherstop.png" alt="Weatherstop">
-              <img src="images/mouldings/water-table.png" alt="Water Table">
-              <img src="images/mouldings/louver.png" alt="Louver">
-            </div>
-
-            <div>
-              <img src="images/mouldings/sill.png" alt="Sill">
-              <img src="images/mouldings/attic-sill.png" alt="Attic Sill">
-              <img src="images/mouldings/historic-sill.png" alt="Historic Sill">
-            </div>
-
-            <div>
-              <img src="images/mouldings/sill-nose.png" alt="Sill Nose">
-              <img src="images/mouldings/transom-sill-nose.png" alt="Transom Sill Nose">
-              <img src="images/mouldings/historic-sill-nose.png" alt="Historic Sill Nose">
-            </div>
-
-            <div class="two-images">
-              <img src="images/mouldings/top-rail.png" alt="Top Rail">
-              <img src="images/mouldings/bottom-rail.png" alt="Bottom Rail">
-            </div>
-
-            <div class="two-images">
-              <img src="images/mouldings/1-14-square.png" alt='1-1/4" Square'>
-              <img src="images/mouldings/1-12-square.png" alt='1-1/2" Square'>
-            </div>
-
-            <p class="cycle-prev"><img src="images/arrow-left.png" alt="<"></p>
-            <p class="cycle-next"><img src="images/arrow-right.png" alt=">"></p>
-            <p id="custom-caption"></p>
-          </div>
-        </div>
+        <img src="images/sheet-table.webp" alt="" width="1000" height="500" id="sheet-table">
       </div> <!-- /.site-width -->
-    </div> <!-- /#mouldings -->
+
+      <img src="images/sheet.webp" alt="" width="755" height="685" id="sheet-image">
+    </div> <!-- /#sheet -->
+
+    <div id="cornerboard">
+      <div class="site-width">
+        <div class="text">
+          <h2 class="razor">Razor</h2>
+          <h1 class="title">PVC Corner Board</h1>
+
+          SEAMLESS PERFECT CORNERS<br>
+          <br>
+
+          Seamless one-piece corners do not allow dirt to settle in the edge and they are structurally stronger. Seamless will be the best long-lasting look for any home or project that is exposed to the elements.<br>
+          <br>
+
+          RAZOR PVC CORNER OFFERS:
+          <ul>
+            <li>Comes in 3-1/2" to 7-1/4" board widths and up to 18' lengths.</li>
+            <li>1' thickness is the preferred revel with siding</li>
+            <li>Our corner boards can be ordered either Smooth/Smooth or Smooth/Wood Grain.</li>
+            <li>Sealed edges provide a long-lasting and clean edge.</li>
+            <li>Head-turning curb appeal - without rotting, peeling, or fading.</li>
+            <li>Installed using ordinary woodworking tools.</li>
+            <li>Corners can be ordered either in wood grain or smooth matte textures.</li>
+            <li>No corner seam prevents splitting and dirt buildup.</li>
+          </ul>
+          <br>
+
+          <a href="pdf/Razor_PVC_Trim.pdf" class="button">Download Brochure</a>
+        </div> <!-- /.text -->
+
+        <img src="images/cornerboard-table.webp" alt="" width="1000" height="658" id="cornerboard-table">
+      </div> <!-- /.site-width -->
+
+      <img src="images/cornerboard.webp" alt="" width="550" height="716" id="cornerboard-image">
+    </div> <!-- /#cornerboard -->
 
     <div class="ribbon bigger">
       What is the Razor edge?
@@ -190,11 +153,11 @@
     <label for="dist-toggle" class="ribbon bigger">Distribution</label>
     <div id="distribution">
       <div class="site-width">
-        <img src="images/distribution-map.png" alt="" id="dist-map">
+        <img src="images/distribution-map.webp" alt="" width="817" height="936" id="dist-map">
 
         <div id="dist-text">
           Distributed by
-          <a href="http://princetonforestproducts.com"><img src="images/princeton-forest-products.png" alt="Princeton Forest Products"></a>
+          <a href="http://princetonforestproducts.com"><img src="images/princeton-forest-products.webp" alt="Princeton Forest Products" width="732" height="95"></a>
         </div>
       </div>
     </div>
@@ -204,47 +167,6 @@
         Want to know more? Get in touch with a
         <h3>Razor Specialist</h3>
 
-        <script type="text/javascript">
-          $(document).ready(function() {
-            var form = $('#contact-form');
-            var formMessages = $('#contact-form-messages');
-            $(form).submit(function(event) {
-              event.preventDefault();
-
-              function formValidation() {
-                if ($('#name').val() === '') { alert('Name required.'); $('#name').focus(); return false; }
-                if ($('#email').val() === '') { alert('Email Address required.'); $('#email').focus(); return false; }
-                if ($('#message').val() === '') { alert('Message required.'); $('#message').focus(); return false; }
-                return true;
-              }
-
-              if (formValidation()) {
-                var formData = $(form).serialize();
-                formData += '&src=ajax';
-
-                $.ajax({
-                  type: 'POST',
-                  url: $(form).attr('action'),
-                  data: formData
-                })
-                .done(function(response) {
-                  $(formMessages).html(response);
-
-                  $(form).find('input:text, textarea').val('');
-                  $('#email').val('');
-                })
-                .fail(function(data) {
-                  if (data.responseText !== '') {
-                    $(formMessages).html(data.responseText);
-                  } else {
-                    $(formMessages).text('Oops! An error occured and your message could not be sent.');
-                  }
-                });
-              }
-            });
-          });
-        </script>
-
         <?php
         // Settings for randomizing form field names
         $ip = $_SERVER['REMOTE_ADDR'];
@@ -252,51 +174,119 @@
         $salt = "RazorContactForm";
         ?>
 
-        <noscript>
-        <?php
-        if (!empty($_SESSION['feedback'])) {
-          $feedback = $_SESSION['feedback'];
-          unset($_SESSION['feedback']);
-        } else {
-          $feedback = "";
-        }
-        ?>
-        </noscript>
-
-        <form action="form-contact.php" method="POST" id="contact-form">
+        <form action="form-contact.php" method="POST" id="contact-form" novalidate>
           <div>
-            <input type="text" name="<?php echo md5("name" . $ip . $salt . $timestamp); ?>" id="name" placeholder="Name">
+            <input type="text" name="username" tabindex="-1" aria-hidden="true" autocomplete="new-password">
 
-            <input type="email" name="<?php echo md5("email" . $ip . $salt . $timestamp); ?>" id="email" placeholder="Email Address">
+            <div class="col3">
+              <input type="text" name="<?php echo md5("name" . $ip . $salt . $timestamp); ?>" id="name" placeholder="Name" required>
 
-            <textarea name="<?php echo md5("message" . $ip . $salt . $timestamp); ?>" id="message" placeholder="Message"></textarea>
+              <input type="email" name="<?php echo md5("email" . $ip . $salt . $timestamp); ?>" id="email" placeholder="Email Address" required>
 
-            <input type="hidden" name="referrer" value="index.php">
-            <input type="text" name="confirmationCAP" style="display: none;">
+              <input type="text" name="<?php echo md5("company" . $ip . $salt . $timestamp); ?>" id="company" placeholder="Company">
+            </div>
+
+            <div class="checkboxes">
+              I am interested in: 
+
+              <input type="checkbox" name="interested[]" value="PVC Trim Board" id="i1">
+              <label for="i1">PVC Trim Board</label>
+
+              <input type="checkbox" name="interested[]" value="PVC Sheet" id="i2">
+              <label for="i2">PVC Sheet</label>
+
+              <input type="checkbox" name="interested[]" value="PVC Cornerboard" id="i3">
+              <label for="i3">PVC Cornerboard</label>
+            </div>
+
+            <textarea name="<?php echo md5("message" . $ip . $salt . $timestamp); ?>" id="message" placeholder="Message" required></textarea>
+
             <input type="hidden" name="ip" value="<?php echo $ip; ?>">
             <input type="hidden" name="timestamp" value="<?php echo $timestamp; ?>">
 
-            <input type="submit" name="submit" value="Submit">
+            <button type="submit" id="submit">Submit</button>
           </div>
         </form>
 
-        <div id="contact-form-messages"><?php echo $feedback; ?></div>
+        <div id="contact-form-messages"><?php if (isset($feedback)) echo $feedback; ?></div>
       </div>
     </div>
 
     <footer>
-      <img src="images/logo.png" alt="Razor Products" class="logo">
+      <img src="images/logo.webp" alt="Razor PVC Trim & Sheets" width="1000" height="650" class="logo">
+      
+      <div class="site-width">
+        <div>
+          800.330.2239<br>
+          3402 Stanwood Boulevard<br>
+          Huntsville, AL 35811
+        </div>
+
+        <img src="images/kommerling-logo.webp" alt="Kommerling" width="1000" height="481">
+      </div> <!-- /.site-width -->
 
       Copyright &copy; <?php echo date("Y"); ?><br>
-      <br>
 
-      800.330.2239<br>
-      3402 Stanwood Boulevard<br>
-      Huntsville, AL 35811<br>
-      <br>
-
-      <a href="https://foresitegrp.com" style="font-size: 0.6875rem; color: #FFFFFF;">WEBSITE BY FORESITE</a>
+      <a href="https://foresitegrp.com" style="font-size: 50%; color: #FFFFFF;">WEBSITE BY FORESITE</a>
     </footer>
+
+    <script>
+      // Open external links and PDFs in new tab
+      [...document.links].forEach(link => {
+        if (link.hostname != window.location.hostname || link.href.split('.').pop() == "pdf") {
+          link.target = '_blank'; link.rel = 'noopener';
+        }
+      });
+
+      // BEGIN form submit
+      const form = document.getElementById('contact-form');
+      form.addEventListener('submit', submitForm);
+
+      function submitForm(event) {
+        event.preventDefault();
+
+        // Validate any fields with "required" selector
+        var valid = 'yes';
+
+        for (const el of form.querySelectorAll('[required]')) {
+          if (!el.checkValidity()) {
+            document.getElementsByName(el.name).forEach(function (input) {
+              input.classList.add('alert');
+              input.placeholder = input.placeholder+' REQUIRED';
+            });
+
+            valid = 'no';
+          }
+        }
+        
+        // If fields are valid, send the data
+        if (valid == 'yes') {
+          document.getElementById('submit').classList.add('loader');
+
+          const data = new FormData(form);
+
+          fetch(form.action, {
+            method: 'POST',
+            body: data
+          })
+          .then((response) => response.text())
+          .then((result) => {
+            // Data sent, so display success message
+            // and clear all the form fields
+            document.getElementById('contact-form-messages').innerHTML = result;
+            form.reset();
+            
+            // Clear alerts
+            document.querySelectorAll('.alert').forEach(function (alert) {
+              alert.classList.remove('alert');
+              alert.placeholder = 'REQUIRED';
+            });
+
+            document.getElementById('submit').classList.remove('loader');
+          });
+        }
+      } // END submitForm
+    </script>
 
   </body>
 </html>
