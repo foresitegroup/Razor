@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -11,6 +11,8 @@
     <meta name="description" content="The most cost-effective PVC trim and sheets in the marketplace.">
 
     <link rel="stylesheet" href="inc/main.css?<?php echo filemtime('inc/main.css'); ?>">
+
+    <link rel="preload" fetchpriority="high" as="image" href="images/hero.webp" type="image/webp">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-4H9PNX77ZW"></script>
@@ -24,7 +26,7 @@
   <body>
 
     <header>
-      <img src="images/logo.webp" alt="Razor PVC Trim & Sheets" width="1000" height="650" class="logo">
+      <img src="images/logo.webp" alt="Razor PVC Trim & Sheets" width="700" height="455" class="logo">
     </header>
 
     <div id="hero" role="img" aria-label="Give yourself an edge with Razor PVC trim & sheets"></div>
@@ -58,7 +60,7 @@
           <a href="pdf/Razor_PVC_Trim.pdf" class="button">Download Brochure</a>
         </div> <!-- /.text -->
 
-        <img src="images/trim-table.webp" alt="" width="1000" height="627" id="trim-table">
+        <img src="images/trim-table.webp" alt="" width="750" height="470" id="trim-table">
       </div> <!-- /.site-width -->
 
       <img src="images/trim.webp" alt="" width="529" height="697" id="trim-image">
@@ -92,7 +94,7 @@
           </div>
         </div> <!-- /.text -->
 
-        <img src="images/sheet-table.webp" alt="" width="1000" height="500" id="sheet-table">
+        <img src="images/sheet-table.webp" alt="" width="750" height="375" id="sheet-table">
       </div> <!-- /.site-width -->
 
       <img src="images/sheet.webp" alt="" width="755" height="685" id="sheet-image">
@@ -126,7 +128,7 @@
           <a href="pdf/Razor_PVC_Trim.pdf" class="button">Download Brochure</a>
         </div> <!-- /.text -->
 
-        <img src="images/cornerboard-table.webp" alt="" width="1000" height="658" id="cornerboard-table">
+        <img src="images/cornerboard-table.webp" alt="" width="750" height="493" id="cornerboard-table">
       </div> <!-- /.site-width -->
 
       <img src="images/cornerboard.webp" alt="" width="550" height="716" id="cornerboard-image">
@@ -138,11 +140,11 @@
 
     <div id="edge">
       <div class="site-width">
-        <img src="images/icon-easy-to-install.svg" alt="Easy to install with basic tools">
-        <img src="images/icon-clean.svg" alt="Just soap and water to clean">
-        <img src="images/icon-water-resistant.svg" alt="Water resistant">
-        <img src="images/icon-bug-resistant.svg" alt="Bug and insect resistant">
-        <img src="images/icon-rot-resistant.svg" alt="Rot and mold resistant">
+        <img src="images/icon-easy-to-install.svg" alt="Easy to install with basic tools" width="95" height="137">
+        <img src="images/icon-clean.svg" alt="Just soap and water to clean" width="90" height="137">
+        <img src="images/icon-water-resistant.svg" alt="Water resistant" width="90" height="137">
+        <img src="images/icon-bug-resistant.svg" alt="Bug and insect resistant" width="91" height="137">
+        <img src="images/icon-rot-resistant.svg" alt="Rot and mold resistant" width="91" height="137">
         <br>
 
         It is virtually maintenance free and it complements all exterior cladding materials, including vinyl, wood, stucco, fiber cement, and brick. Installers prefer it because cellular PVC trim is lightweight and durable and it can be installed using ordinary woodworking tools.
@@ -165,7 +167,7 @@
     <div id="contact">
       <div class="site-width">
         Want to know more? Get in touch with a
-        <h3>Razor Specialist</h3>
+        <h2>Razor Specialist</h2>
 
         <?php
         // Settings for randomizing form field names
@@ -213,7 +215,7 @@
     </div>
 
     <footer>
-      <img src="images/logo.webp" alt="Razor PVC Trim & Sheets" width="1000" height="650" class="logo">
+      <img src="images/logo.webp" alt="Razor PVC Trim & Sheets" width="700" height="455" class="logo">
       
       <div class="site-width">
         <div>
@@ -222,7 +224,7 @@
           Huntsville, AL 35811
         </div>
 
-        <img src="images/kommerling-logo.webp" alt="Kommerling" width="1000" height="481">
+        <img src="images/kommerling-logo.webp" alt="Kommerling" width="600" height="289">
       </div> <!-- /.site-width -->
 
       Copyright &copy; <?php echo date("Y"); ?><br>

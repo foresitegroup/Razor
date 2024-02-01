@@ -10,6 +10,7 @@
        url('fonts/din_condensed_bold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -18,11 +19,13 @@
        url('fonts/zviro_demo1.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'AlternateGotNo3D';
   src: url('fonts/AlternateGotNo3D.ttf') format('truetype');
+  font-display: swap;
 }
 
 BODY {
@@ -362,7 +365,7 @@ LABEL[for="dist-toggle"] { display: block; cursor: pointer; }
   text-align: center;
 }
 
-#contact H3 {
+#contact H2 {
   margin: 0.15em 0 1em;
   color: #FFFFFF;
   font-family: 'zviro';
