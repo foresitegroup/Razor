@@ -57,7 +57,7 @@
           </ul>
           <br>
 
-          <a href="pdf/Razor_PVC_Trim.pdf" class="button">Download Brochure</a>
+          <a href="pdf/Razor-2024-General-Brochure.pdf" class="button">Download Brochure</a>
         </div> <!-- /.text -->
 
         <img src="images/trim-table.webp" alt="" width="750" height="470" id="trim-table">
@@ -90,7 +90,7 @@
             </ul>
             <br>
 
-            <a href="pdf/Razor_Mouldings.pdf" class="button">Download Brochure</a>
+            <a href="pdf/Razor-2024-General-Brochure.pdf" class="button">Download Brochure</a>
           </div>
         </div> <!-- /.text -->
 
@@ -125,7 +125,7 @@
           </ul>
           <br>
 
-          <a href="pdf/Razor_PVC_Trim.pdf" class="button">Download Brochure</a>
+          <a href="pdf/Razor-2024-General-Brochure.pdf" class="button">Download Brochure</a>
         </div> <!-- /.text -->
 
         <img src="images/cornerboard-table.webp" alt="" width="750" height="493" id="cornerboard-table">
