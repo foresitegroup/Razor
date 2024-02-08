@@ -151,7 +151,7 @@
       </div>
     </div>
 
-    <input type="checkbox" id="dist-toggle" role="button">
+    <!-- <input type="checkbox" id="dist-toggle" role="button">
     <label for="dist-toggle" class="ribbon bigger">Distribution</label>
     <div id="distribution">
       <div class="site-width">
@@ -162,7 +162,7 @@
           <a href="http://princetonforestproducts.com"><img src="images/princeton-forest-products.webp" alt="Princeton Forest Products" width="732" height="95"></a>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div id="contact">
       <div class="site-width">
