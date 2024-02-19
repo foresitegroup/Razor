@@ -90,7 +90,10 @@
             </ul>
             <br>
 
-            <a href="pdf/Razor-2024-General-Brochure.pdf" class="button">Download Brochure</a>
+            <a href="pdf/Razor-2024-General-Brochure.pdf" class="button">Download Brochure</a><br>
+            <br>
+
+            <a href="pdf/Razor_Data_Sheet.pdf" class="button">Razor Data</a>
           </div>
         </div> <!-- /.text -->
 
