@@ -12,7 +12,7 @@ if (
   if ($_POST['username'] == "") {
     // Send email
     $Subject = "Contact From Razor Website";
-    $SendTo = "frank.butterfield@kommerlingusa.com";
+    $SendTo = "Amanda.riemer@kommerlingusa.com,Jean.Holloway@kommerlingusa.com";
     $Headers = "From: Razor Contact Form <contactform@razortrimproducts.com>\r\n";
     $Headers .= "Reply-To: " . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "\r\n";
     $Headers .= "Bcc: foresitegroupllc@gmail.com\r\n";
