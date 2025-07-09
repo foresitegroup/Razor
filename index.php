@@ -177,6 +177,8 @@
         $ip = $_SERVER['REMOTE_ADDR'];
         $timestamp = time();
         $salt = "RazorContactForm";
+
+        include_once "inc/fintoozler.php";
         ?>
 
         <form action="form-contact.php" method="POST" id="contact-form" novalidate>
@@ -209,6 +211,8 @@
             <input type="hidden" name="ip" value="<?php echo $ip; ?>">
             <input type="hidden" name="timestamp" value="<?php echo $timestamp; ?>">
 
+            <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITE_KEY; ?>" style="display: inline-block; margin: 0 auto 1em;"></div><br>
+
             <button type="submit" id="submit">Submit</button>
           </div>
         </form>
@@ -234,6 +238,8 @@
 
       <a href="https://foresitegrp.com" style="font-size: 50%; color: #FFFFFF;">WEBSITE BY FORESITE</a>
     </footer>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
     <script>
       // Open external links and PDFs in new tab
