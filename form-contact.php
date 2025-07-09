@@ -5,6 +5,8 @@ session_start();
 
 $salt = "RazorContactForm";
 
+$feedback = "";
+
 $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".RECAPTCHA_SECRET_KEY."&response=".$_POST['g-recaptcha-response']);
 $responsekeys = json_decode($response);
 
@@ -44,7 +46,7 @@ if ($responsekeys->success) {
   } else {
     $feedback = "Some required information is missing! Please go back and make sure all required fields are filled.";
   }
-
-  echo $feedback;
 } // reCAPTCHA
+
+echo $feedback;
 ?>
